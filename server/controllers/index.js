@@ -1,0 +1,1 @@
+module.exports.productCotroller = require('./product.controller')

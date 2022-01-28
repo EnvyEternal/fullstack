@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "eternal <vladultimate@gmail.com>",
+  "homepage": "https://github.com/EnvyEternal",
+  "license": "ISC",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnvyEternal"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/EnvyEternal"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.13.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
